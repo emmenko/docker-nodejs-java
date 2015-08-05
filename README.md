@@ -3,6 +3,8 @@ A [Docker](https://www.docker.com/) container with
 - node 0.12 (latest)
 - jdk 1.8.0_51
 
+> Basically it extends the `node:0.12` image by having `java` installed. The container exports the `node` command.
+
 
 ```bash
 # run it

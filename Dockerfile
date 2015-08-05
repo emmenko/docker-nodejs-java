@@ -1,5 +1,7 @@
 FROM node:0.12
 
+MAINTAINER Nicola Molinari <emmenko@gmail.com>
+
 # Install Java.
 ENV java_version 1.8.0_51
 ENV filename jdk-8u51-linux-x64.tar.gz
