@@ -9,7 +9,7 @@ A [Docker](https://www.docker.com/) container with
 # run it
 
 $ cmd='npm -v && java -version'
-$ docker run -it -v $(pwd):/src -w /src emmenko/nodejs-java sh -c "$cmd"
+$ docker run -it --rm -v $(pwd):/src -w /src emmenko/nodejs-java sh -c "$cmd"
 Starting virtual X frame buffer: Xvfb.
 Executing command npm -v && java-version
 2.11.3
